@@ -16,9 +16,4 @@ export default function () {
   check(response, {
     "status code validation": (response) => response.status === 201,
   });
-  if (response.status !== 201) {
-    // console.log("Response body: " + response.body);
-    //console.log("Response status: " + response.status);
-
-  }
 }
